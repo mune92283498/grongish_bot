@@ -1,5 +1,5 @@
 class GrongibotController < ApplicationController
-  require 'grongi/bot'
+  require 'line/bot'
 
   # callbackアクションのCSRFトークン認証を無効
   protect_from_forgery :except => [:callback]
