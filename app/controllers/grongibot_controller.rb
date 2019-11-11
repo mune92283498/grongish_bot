@@ -1,0 +1,2 @@
+class GrongibotController < ApplicationController
+end
